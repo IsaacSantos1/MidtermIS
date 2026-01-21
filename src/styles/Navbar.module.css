@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration:underline;
+}
+
+.logo{
+    margin-left: 10px;
+    height: 50px;
+}
+
+.router {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    color: white;
+}

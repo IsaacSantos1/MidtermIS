@@ -1,0 +1,14 @@
+.hero1 {
+    text-align: center;
+    position: relative;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    width: 100%
+}
