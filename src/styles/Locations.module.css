@@ -48,3 +48,35 @@
     padding: 0;
     line-height: 1.8;
 }
+
+@media screen and (max-width: 799px) {
+    .hero3{
+    width:100%;
+    height:auto;
+    }
+
+    .img3{
+        margin-top:60px;
+        height:1000px;
+    }
+    .box {
+        
+        flex-direction: column;
+        width:100px;
+        height:100px;
+        padding:60px;
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:1260px) and (min-width:800px){
+    .hero3{
+        width:100%;
+        height:auto;
+        }
+
+        .img3{
+            margin-top:60px;
+            height:900px;
+        }
+}
